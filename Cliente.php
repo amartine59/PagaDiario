@@ -19,13 +19,54 @@ $this->Telefono= $Tel;
 $this->Estado= $Es;
 
 }
-public function set($v,$n)
-{
-  $this->$v=$n;
+public function setIdentificacion($Id){
+  $this->Identificacion = $Id;
 }
-public function get($n)
-{
-  return $this->$n;
+
+public function getIdentificacion(){
+  return $this->Identificacion;
 }
+
+public function setNombre($No){
+  $this->Nombres = $No;
+}
+
+public function getNombres(){
+  return $this->Nombres;
+}
+public function setApellidos($Ap){
+  $this->Apellidos = $Ap;
+}
+
+public function getApellidos(){
+  return $this->Apellidos;
+}
+
+public function setDireccion($Dir){
+  $this->Direccion = $Dir;
+}
+
+public function getDireccion(){
+  return $this->Direccion;
+}
+
+
+public function setTelefono($Tel){
+  $this->Telefono = $Tel;
+}
+
+public function getTelefono(){
+  return $this->Telefono;
+}
+
+public function setEstado($Es){
+  $this->Estado = $Es;
+}
+
+public function getEstado(){
+  return $this->Estado;
+}
+
+
 }
 ?>
